@@ -1,0 +1,94 @@
+.stat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.line-container {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.stat {
+  color: white;
+  margin-right: 100px;
+}
+
+.download-btn {
+  margin-left: 100px;
+}
+
+.table {
+  height: 138px;
+  width: 323px;
+  border-radius: 8px;
+  background-color: #10161c;
+  box-shadow: inset -2px -2px 4px 0 #040b11, inset 2px 2px 4px 0 #1c232a,
+    0 13px 9px 0 #000000;
+  color: white;
+}
+
+.total,
+.inprog {
+  border-right: 1px solid #1c232a;
+}
+.total,
+.completed {
+  border-bottom: 1px solid #1c232a;
+}
+
+.i {
+  font-size: 30px;
+  margin-left: 0;
+  text-align: center;
+  vertical-align: center;
+}
+
+td {
+  padding-left: 5px;
+}
+
+.grid {
+  color: #0634ff;
+}
+.check {
+  color: #0ee881;
+}
+
+.bolt {
+  color: #ffbb00;
+}
+
+.del {
+  color: #ff5252;
+}
+
+button {
+  border: 1px solid #1c232a;
+  background-color: #10161c;
+  color: white;
+
+  box-shadow: inset -2px -2px 4px 0 #040b11, inset 2px 2px 4px 0 #1c232a;
+}
+.download {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  padding: 2px;
+}
+.arr {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 2px;
+}
+
+.text {
+  font-size: 14px;
+  color: #c1c7d0;
+}
+
+b {
+  font-size: 18px;
+}

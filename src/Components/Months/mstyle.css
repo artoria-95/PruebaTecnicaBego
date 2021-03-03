@@ -1,0 +1,83 @@
+.parent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.month-container {
+  box-sizing: border-box;
+  height: 355px;
+  width: 326px;
+  border: 1px solid #10161C;
+  border-radius: 16px;
+  background-color: #10161C;
+  box-shadow: inset 2px 2px 6px 0 #1C232A, inset -2px -2px 6px 0 #040B11;
+}
+
+.nav, .meses {
+  grid-column: 1/13;
+  list-style: none;
+  text-align: center;
+}
+
+.li {
+  float: left;
+  font-size: 14px;
+}
+.month {
+  color: #ffbe00;
+  grid-column: 2/3;
+  padding-right: 5px;
+}
+.month,
+.other1,
+.other2,
+.other3,
+.mes,
+.oct {
+  display: inline-block;
+  margin: 10px;
+}
+
+.mes {
+  color: #89898A;
+}
+.other1,
+.other2,
+.other3,
+.oct {
+  color: white;
+}
+.pesos {
+  height: 26px;
+  width: 16.9px;
+  color: #FFFFFF;
+  font-family: ".SF NS Display";
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.num{
+  height: 61px;
+  width: 149.5px;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-size: 45px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 61px;
+  text-align: center;
+}
+
+.cash {
+  grid-column: 1/13;
+  text-align: center;
+  padding: 15px;
+}
+
+.indicator {
+  padding-top: 44px;
+  padding-bottom: 22px;
+}

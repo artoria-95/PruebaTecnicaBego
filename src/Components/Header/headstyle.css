@@ -1,0 +1,67 @@
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 375px;
+  height: 143px;
+  align-items: center;
+  align-content: center;
+}
+
+/*barra superior*/
+
+.imagen {
+  grid-column: 11/12;
+}
+
+.tasks {
+  color: white;
+  grid-column: 6/8;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.arrow {
+  color: white;
+  font-size: 45px;
+  grid-column: 2/3;
+}
+
+/*crear*/
+.create {
+  color: #ffbe00;
+  font-size: 16px;
+  text-align: right;
+  grid-column: 9/12;
+}
+
+/*navegacion*/
+.nav {
+  grid-column: 1/13;
+  list-style: none;
+  text-align: center;
+}
+
+.li {
+  float: left;
+  font-size: 14px;
+}
+.all {
+  color: #ffbe00;
+  grid-column: 2/3;
+  border-bottom: 2px solid #ffbe00;
+  padding-right: 5px;
+}
+.all,
+.other1,
+.other2,
+.other3 {
+  display: inline-block;
+  margin: 10px;
+}
+
+.other1,
+.other2,
+.other3 {
+  color: white;
+}
