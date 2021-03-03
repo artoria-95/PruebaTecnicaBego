@@ -3,7 +3,7 @@ import './mstyle.css';
 
 export default function Months(){
   return(
-    <div className="parent">
+    <div className="parent1">
       <div className="month-container">
         <div className="time">
           <ul className="nav">

@@ -1,12 +1,10 @@
-
+/*Contenedores*/
 .parent {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  
+  grid-template-columns: repeat(12, 1fr);  
 }
 .upcoming {
   font-size: 14px;
-  text-align: center;
   grid-column: 2/6;
   margin: 2px;
 }
@@ -49,9 +47,7 @@
   padding-left: 5px;
 }
 
-.fullname {
- 
-}
+
 .fullname, .progress, .date{
 
   padding-left: 5px;
