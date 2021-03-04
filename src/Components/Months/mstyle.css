@@ -8,6 +8,7 @@
 }
 
 .month-container {
+  padding-top: 27px;
   box-sizing: border-box;
   height: 355px;
   width: 326px;
