@@ -65,7 +65,7 @@
 
 .progress {
   text-align: center;
-  width: 100%;
+  width:100%;
 }
 
 .pro {
@@ -81,6 +81,9 @@
   height: 2px;
   background-color: white;
   border-radius: 1px;
+  
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .prog {
   width: 40px;
