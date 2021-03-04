@@ -1,8 +1,8 @@
 import Task from "./Components/TaskCards";
 import Header from "./Components/Header/index";
-import "./App.css";
 import Statistics from "./Components/Statistics";
 import Months from "./Components/Months";
+import "./App.css";
 
 function App() {
   return (
