@@ -19,10 +19,10 @@ export default function Header() {
         <div className="create">CREATE +</div>
         <div className="nav">
           <ul>
-            <li className="all"><u>All_</u></li>
-            <li className="other1">In Progress</li>
-            <li className="other2">Started</li>
-            <li className="other3">Completed</li>
+            <li className="all"><a href="#">All</a></li>
+            <li className="other1"><a href="#">In Progress</a></li>
+            <li className="other2"><a href="#">Started</a></li>
+            <li className="other3"><a href="#">Completed</a></li>
           </ul>
         </div>
       </div>

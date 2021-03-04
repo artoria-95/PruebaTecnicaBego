@@ -64,3 +64,13 @@
 .other3 {
   color: white;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:focus{
+color: #ffbe00;
+text-decoration: underline;
+}
