@@ -6,7 +6,9 @@
 .upcoming {
   font-size: 14px;
   grid-column: 2/6;
-  margin: 2px;
+  margin-bottom: 2px;
+  margin-top: 30px;
+
 }
 
 .card-container {

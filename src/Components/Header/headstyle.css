@@ -9,7 +9,9 @@
 }
 
 .imagen {
-  grid-column: 11/12;
+  grid-column: 2/12;
+  position: relative;
+  margin-top: 78px;
 }
 
 .create {
@@ -17,11 +19,13 @@
   font-size: 16px;
   text-align: right;
   grid-column: 9/12;
+  padding-top: 40px;
 }
 .nav {
   grid-column: 1/13;
   list-style: none;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 /*barra superior*/
@@ -32,6 +36,10 @@
   font-size: 18px;
   letter-spacing: 0;
   line-height: 26px;
+  position:absolute;
+  top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .arrow {
