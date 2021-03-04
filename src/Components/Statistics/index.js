@@ -1,10 +1,10 @@
 import React from "react";
-import "./statstyles.css";
 import { FiDownload } from "react-icons/fi";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { IoGridOutline } from "react-icons/io5";
 import { FiCheckCircle } from "react-icons/fi";
 import { AiOutlineThunderbolt, AiOutlineClockCircle } from "react-icons/ai";
+import "./statstyles.css";
 
 export default function Statistics() {
   return (
@@ -29,7 +29,9 @@ export default function Statistics() {
                 <IoGridOutline />
               </td>
               <td>
-                <tr><b>50</b></tr>
+                <tr>
+                  <b>50</b>
+                </tr>
                 <tr className="text">total projects</tr>
               </td>
             </td>
@@ -38,7 +40,9 @@ export default function Statistics() {
                 <FiCheckCircle />
               </td>
               <td>
-                <tr><b>15</b></tr>
+                <tr>
+                  <b>15</b>
+                </tr>
                 <tr className="text">Completed</tr>
               </td>
             </td>
@@ -49,16 +53,20 @@ export default function Statistics() {
                 <AiOutlineThunderbolt />
               </td>
               <td>
-                <tr><b>10</b></tr>
+                <tr>
+                  <b>10</b>
+                </tr>
                 <tr className="text">In Progress</tr>
               </td>
             </td>
             <td className="delayed">
               <td className="i del">
                 <AiOutlineClockCircle />
-                </td>
+              </td>
               <td>
-                <tr><b>2</b></tr>
+                <tr>
+                  <b>2</b>
+                </tr>
                 <tr className="text">Delayed</tr>
               </td>
             </td>
