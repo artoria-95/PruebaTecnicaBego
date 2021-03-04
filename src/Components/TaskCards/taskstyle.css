@@ -46,9 +46,11 @@
   letter-spacing: 0;
   line-height: 26px;
   padding-top: 5px;
-  padding-left: 5px;
+  padding-left: 8px;
 }
-
+.fullname {
+  margin-left: 4px;
+}
 .fullname,
 .progress,
 .date {
@@ -65,7 +67,8 @@
 
 .progress {
   text-align: center;
-  width:100%;
+  width:95%;
+  padding-top: 30px;
 }
 
 .pro {
@@ -75,6 +78,13 @@
 .perc {
   margin-left: 30px;
 }
+
+.date {
+  width: 85%;
+  text-align: right;
+}
+
+/*Objetos*/
 
 .progbar {
   width: 136px;
@@ -92,6 +102,3 @@
   background-color: #ffbe00;
 }
 
-.date {
-  text-align: right;
-}
