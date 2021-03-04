@@ -1,3 +1,4 @@
+/*Contenedores*/
 .contenedor {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -7,11 +8,23 @@
   align-content: center;
 }
 
-/*barra superior*/
-
 .imagen {
   grid-column: 11/12;
 }
+
+.create {
+  color: #ffbe00;
+  font-size: 16px;
+  text-align: right;
+  grid-column: 9/12;
+}
+.nav {
+  grid-column: 1/13;
+  list-style: none;
+  text-align: center;
+}
+
+/*barra superior*/
 
 .tasks {
   color: white;
@@ -27,20 +40,7 @@
   grid-column: 2/3;
 }
 
-/*crear*/
-.create {
-  color: #ffbe00;
-  font-size: 16px;
-  text-align: right;
-  grid-column: 9/12;
-}
-
 /*navegacion*/
-.nav {
-  grid-column: 1/13;
-  list-style: none;
-  text-align: center;
-}
 
 .li {
   float: left;
