@@ -49,8 +49,7 @@
 .all {
   color: #ffbe00;
   grid-column: 2/3;
-  border-bottom: 2px solid #ffbe00;
-  padding-right: 5px;
+  
 }
 .all,
 .other1,
