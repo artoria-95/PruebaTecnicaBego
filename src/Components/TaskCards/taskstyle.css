@@ -30,13 +30,13 @@
 }
 
 /*Texto*/
+
 .s1 {
   color: white;
 }
 .s2 {
   color: #c1c7d0;
 }
-
 .title {
   height: 20px;
   width: 119px;
@@ -64,21 +64,17 @@
   letter-spacing: 0;
   line-height: 16px;
 }
-
 .progress {
   text-align: center;
   width:95%;
   padding-top: 18px;
 }
-
 .pro {
   margin-right: 55px;
 }
-
 .perc {
   margin-left: 30px;
 }
-
 .date {
   width: 85%;
   text-align: right;
@@ -102,4 +98,3 @@
   border-radius: 1px;
   background-color: #ffbe00;
 }
-
