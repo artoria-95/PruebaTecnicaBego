@@ -1,5 +1,5 @@
 /*Contenedores*/
-.parent1{
+.parent1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,13 +11,14 @@
   box-sizing: border-box;
   height: 355px;
   width: 326px;
-  border: 1px solid #10161C;
+  border: 1px solid #10161c;
   border-radius: 16px;
-  background-color: #10161C;
-  box-shadow: inset 2px 2px 6px 0 #1C232A, inset -2px -2px 6px 0 #040B11;
+  background-color: #10161c;
+  box-shadow: inset 2px 2px 6px 0 #1c232a, inset -2px -2px 6px 0 #040b11;
 }
 
-.nav, .meses {
+.nav,
+.meses {
   grid-column: 1/13;
   list-style: none;
   text-align: center;
@@ -45,7 +46,7 @@
 }
 
 .mes {
-  color: #89898A;
+  color: #89898a;
 }
 .other1,
 .other2,
@@ -55,15 +56,15 @@
 }
 .pesos {
   width: 16.9px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 22px;
   letter-spacing: 0;
   line-height: 26px;
 }
-.num{
+.num {
   height: 61px;
   width: 149.5px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 45px;
   font-weight: 900;
   line-height: 61px;
@@ -90,7 +91,7 @@
   box-sizing: border-box;
   height: 120px;
   width: 1px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   opacity: 0.2;
   margin-left: 70%;
 }
@@ -98,7 +99,7 @@
 .oct-dot {
   height: 10px;
   width: 10px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 50%;
   margin-left: 69%;
 }
