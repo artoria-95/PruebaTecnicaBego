@@ -42,12 +42,6 @@
     transform: translate(-50%, -50%);
 }
 
-.arrow {
-  color: white;
-  font-size: 45px;
-  grid-column: 2/3;
-}
-
 /*navegacion*/
 
 .li {

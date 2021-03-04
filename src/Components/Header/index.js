@@ -1,5 +1,4 @@
 import React from "react";
-import { RiArrowDropLeftLine } from "react-icons/ri";
 import "./headstyle.css";
 
 export default function Header() {
