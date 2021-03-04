@@ -68,7 +68,7 @@
 .progress {
   text-align: center;
   width:95%;
-  padding-top: 30px;
+  padding-top: 18px;
 }
 
 .pro {
@@ -91,7 +91,8 @@
   height: 2px;
   background-color: white;
   border-radius: 1px;
-  
+  margin-top: 5px;
+  margin-bottom: 5px;
   margin-left: 10%;
   margin-right: 10%;
 }
