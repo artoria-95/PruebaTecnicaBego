@@ -70,6 +70,12 @@ b {
 td {
   padding-left: 5px;
 }
+.total,
+.inprog,
+.completed,
+.delayed {
+  width: 162px;
+}
 
 /*Botones*/
 
