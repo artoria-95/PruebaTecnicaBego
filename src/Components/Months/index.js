@@ -1,5 +1,7 @@
 import React from "react";
 import "./mstyle.css";
+import path from '../../Images/Path 9 + Path 8 Mask/Path8.png';
+import indicator from '../../Images/indicator.png';
 
 export default function Months() {
   return (
@@ -18,7 +20,7 @@ export default function Months() {
         <div className="cash">
           <span className="pesos">$</span> <span className="num">13,543</span>
         </div>
-        <img src="https://projects.invisionapp.com/assets/21135679/987684215/5059ECD73249DBC6C834CD9C00351433677EE7DD4AC5FFEA4580F94854938D1F/preview?w=758&cacheVersion=1" className="wave"/>
+        <img src={path} className="wave"/>
         
         <div className="oct-dot"/>
         <div className="oct-line"/>
@@ -33,7 +35,7 @@ export default function Months() {
       
       </div>
       <img
-        src="https://projects.invisionapp.com/assets/21135679/987684213/17AC41C05CB672FE00E3DE96AD13B4C0D4F5EBCA7D2AC5B126D57DBD57BFDC18/preview?w=758&cacheVersion=1"
+        src={indicator}
         className="indicator"
       />
     </div>

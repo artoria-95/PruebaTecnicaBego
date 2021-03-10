@@ -1,5 +1,6 @@
 import React from "react";
 import "./headstyle.css";
+import header from '../../Images/header-back.png';
 
 export default function Header() {
   return (
@@ -8,7 +9,7 @@ export default function Header() {
         
         <div className="imagen">
         <span className="tasks">Tasks</span>
-        <img src="https://projects.invisionapp.com/assets/21135679/987684209/59F055CF7CF8BCEB8CE83A8714AFE6512AF4B3DE381A4E1AB3A461E548DB33E0/preview?w=758&cacheVersion=1" alt=""/>
+        <img src={header} alt=""/>
         </div>
 
         <div className="create">CREATE +</div>
