@@ -23,54 +23,56 @@ export default function Statistics() {
         </div>
 
         <table className="table">
-          <tr>
-            <td className="total">
-              <td className="i grid">
-                <IoGridOutline />
+          <tbody>
+            <tr>
+              <td className="total">
+                <td className="i grid">
+                  <IoGridOutline />
+                </td>
+                <td>
+                  <tr>
+                    <b>50</b>
+                  </tr>
+                  <tr className="text">total projects</tr>
+                </td>
               </td>
-              <td>
-                <tr>
-                  <b>50</b>
-                </tr>
-                <tr className="text">total projects</tr>
+              <td className="completed">
+                <td className="i check">
+                  <FiCheckCircle />
+                </td>
+                <td>
+                  <tr>
+                    <b>15</b>
+                  </tr>
+                  <tr className="text">Completed</tr>
+                </td>
               </td>
-            </td>
-            <td className="completed">
-              <td className="i check">
-                <FiCheckCircle />
+            </tr>
+            <tr>
+              <td className="inprog">
+                <td className="i bolt">
+                  <AiOutlineThunderbolt />
+                </td>
+                <td>
+                  <tr>
+                    <b>10</b>
+                  </tr>
+                  <tr className="text">In Progress</tr>
+                </td>
               </td>
-              <td>
-                <tr>
-                  <b>15</b>
-                </tr>
-                <tr className="text">Completed</tr>
+              <td className="delayed">
+                <td className="i del">
+                  <AiOutlineClockCircle />
+                </td>
+                <td>
+                  <tr>
+                    <b>2</b>
+                  </tr>
+                  <tr className="text">Delayed</tr>
+                </td>
               </td>
-            </td>
-          </tr>
-          <tr>
-            <td className="inprog">
-              <td className="i bolt">
-                <AiOutlineThunderbolt />
-              </td>
-              <td>
-                <tr>
-                  <b>10</b>
-                </tr>
-                <tr className="text">In Progress</tr>
-              </td>
-            </td>
-            <td className="delayed">
-              <td className="i del">
-                <AiOutlineClockCircle />
-              </td>
-              <td>
-                <tr>
-                  <b>2</b>
-                </tr>
-                <tr className="text">Delayed</tr>
-              </td>
-            </td>
-          </tr>
+            </tr>
+          </tbody>
         </table>
       </div>
     </div>
